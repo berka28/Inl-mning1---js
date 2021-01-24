@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <script src="https://kit.fontawesome.com/de93e0e735.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>JAVASCRIPT</title>
+</head>
+<body>
+    <div class="my-5">
+
+        <div class="container" >
+
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                    <div class="col-md-3 mb-3">
+                        <label for="uniqid">Unikt Id</label>
+                        <input type="text" class="form-control" id="uniqid" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid zip code.
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label for="firstname">Förnamn</label>
+                        <input type="text" class="form-control" id="firstname" required>
+                        <div class="invalid-feedback">
+                            Please provide first name
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastname">Efternamn</label>
+                        <input type="text" class="form-control" id="lastname" required>
+                        <div class="invalid-feedback">
+                            Please provide last name
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label for="email">E-post</label>
+                        <input type="email" class="form-control" id="email" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid email.
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <label for="phonenumber">Telefonnummer</label>
+                        <input type="text" class="form-control" id="phonenumber" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid phone number.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="invoiceaddress">Faktureringsadress</label>
+                        <input type="text" class="form-control" id="invoiceaddress" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid address.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zipcode">Postnummer</label>
+                        <input type="text" class="form-control" id="zipcode" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid zip code.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="city">Ort</label>
+                        <input type="text" class="form-control" id="city" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="btn btn-primary" type="submit">Skicka</button>
+            </form>
+
+        </div>
+
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
