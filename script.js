@@ -15,3 +15,7 @@
         });
     }, false);
 })();
+
+$(document).ready(funnction(){
+    
+})
